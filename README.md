@@ -32,3 +32,25 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import axios from 'axios';
+
+export const getHotelsData = () => {
+    return axios.get("https://hotels-api-4ltr.onrender.com/api/hotels");
+}
